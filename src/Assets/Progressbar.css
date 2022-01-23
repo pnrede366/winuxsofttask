@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+}
+.parent{
+
+    height: 7.5rem;
+    width: 20rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle-1{
+    position: absolute;
+    height: 15rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 15px solid rgb(0, 0, 0);
+}
+
+.circle-2{
+    position: absolute;
+    height: 15rem;
+    width: 15rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 15px solid #000;
+    border-bottom-color: #0bf;  /* half azure */
+    border-right-color: #0bf;
+    
+}
+
+
+.text {
+    position: relative;
+    width: 2rem;
+    left: 8.5rem;
+    color: rgb(255, 0, 0);
+    /* margin-left: 10rem; */
+    z-index: 999;
+    top: 2rem;
+}
